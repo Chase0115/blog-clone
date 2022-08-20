@@ -1,3 +1,68 @@
 .singlePost {
   flex: 9;
 }
+
+.singlePostWrapper {
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.singlePostTitlebar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.singlePostTitle {
+  flex: 6
+}
+
+.titleButtons {
+  flex: 1
+}
+
+.titleButton {
+  border: 0;
+  font-size: 1.5rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.edit:hover {
+  transform: scale(1.1);
+  color: green;
+}
+
+.remove:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+.singlePostBody {
+  margin-top: 2rem;
+  display: block;
+}
+.bodyInfo {
+  display: block;
+  text-align: right;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.bodyDate {
+  color: #8f8f8f;
+  margin-bottom: 0.5rem;
+}
+
+.bodyDesc {
+  font-family: 'Varela Round', sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.bodyDesc::first-letter {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
