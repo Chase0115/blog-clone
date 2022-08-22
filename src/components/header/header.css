@@ -30,4 +30,5 @@
   object-fit: cover;
   max-height: 45rem;
   background-position: center;
+  border-radius: 10px;
 }

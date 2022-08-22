@@ -1,0 +1,99 @@
+.settings {
+  display: flex;
+}
+
+.settingWrapper {
+  flex: 9
+}
+
+.settingMenu {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.settingTitle {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: all 200ms ease-in
+}
+
+.update {
+  transform: scale(1.1);
+  color: #8e8e8e;
+}
+
+.delete:hover {
+  transform: scale(1.1);
+  color: #AF4141;
+}
+
+.settingProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+.updateTop {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.updateTopLeft {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.updateTopRight {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileImg {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.updateLable {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.updateInput {
+  width: 20rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-bottom: 1px solid #8e8e8e;
+  font-size: 1rem;
+}
+
+.updateInput:focus {
+  outline: 0;
+}
+
+.updateBottom {
+  flex: 1;
+  margin: auto;
+}
+
+.settingSubmit {
+  width: 8rem;
+  height: 2rem;
+  border: 0;
+  background-color: #799977;
+  border-radius: 10px;
+  margin-top: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}

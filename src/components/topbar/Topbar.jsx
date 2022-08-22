@@ -19,14 +19,17 @@ const Topbar = () =>{
         <ul className="topCenterList">
           <li className="topCenterItem">HOME</li>
           <li className="topCenterItem">ABOUT</li>
-          <li className="topCenterItem">CONTACT</li>
           <li className="topCenterItem">WRITE</li>
-          <li className="topCenterItem">LOGOUT</li>
+          <li className="topCenterItem">CONTACT</li>
         </ul>
 
       </div>
       <div className="topRight">
-      <form className="searchForm"> 
+      <img 
+        className="profile"
+        src="/images/react.jpg" 
+        alt="Profile" />
+      <form className="searchForm">
         <input 
           type="search" 
           placeholder="Search..."
