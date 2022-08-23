@@ -1,4 +1,5 @@
 import './login.css';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -29,7 +30,8 @@ const Login = () => {
           <i className="loginIcon fa-brands fa-github"></i>
           Continue with GitHub</button>
         <button className="loginWithOth signUpBtn">
-          Sign Up</button>
+          <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/register">Sign Up</Link>
+          </button>
       </div>
     </form>
     </div>

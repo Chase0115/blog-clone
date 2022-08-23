@@ -58,6 +58,16 @@
   cursor: pointer;
 }
 
+.logInOut {
+  width: 3.5rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 10px;
+  margin-right: 1rem;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
 .searchForm {
   align-items: center;
 }

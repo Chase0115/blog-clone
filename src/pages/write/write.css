@@ -37,6 +37,7 @@
   font-size: 2rem;
   margin-left: 1rem;
   width: 70vw;
+  background-color: transparent;
 }
 
 .writeInput:focus {
