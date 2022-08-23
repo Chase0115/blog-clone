@@ -2,19 +2,20 @@ import './login.css';
 
 const Login = () => {
   return (
+    <div className="login">
     <form className="loginForm">
       <div className="loginTop">
         <header>Login</header>
       </div>
       <div className="loginMiddle">
-        <label
+        {/* <label
           htmlFor="userId"  className="loginLabel">User ID
-        </label>
+        </label> */}
         <input type="text" name="userId" id="userId" className="loginInput"
         placeholder="User ID"/>
-        <label 
+        {/* <label 
           htmlFor="userPassword"  className="loginLabel">Password
-        </label>
+        </label> */}
         <input type="password" name="userPassword" id="userPassword" className="loginInput" placeholder="Password"/>
         <button className="loginBtn"> 
           Continue with Email 
@@ -25,13 +26,13 @@ const Login = () => {
           <i className="loginIcon fa-brands fa-google"></i>
           Continue with Google</button>
         <button className="loginWithOth">
-          <i className="loginIcon fa-brands fa-facebook"></i>
-          Continue with Facebook</button>
-        <button className="loginWithOth">
           <i className="loginIcon fa-brands fa-github"></i>
           Continue with GitHub</button>
+        <button className="loginWithOth signUpBtn">
+          Sign Up</button>
       </div>
     </form>
+    </div>
   )
 }
 
